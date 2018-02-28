@@ -7,13 +7,13 @@ title: OathKeeper
 subtitle: 
 description:
 author: CHD SofterWare 2014
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://hooozen.github.io
+root: /oathkeeper/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -72,11 +72,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: material
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 'https://github.com/hooozen/oathkeeper.git'
-  branch: page
+  repo: git@github.com:hooozen/oathkeeper.git
+  branch: gh-pages
