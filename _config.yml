@@ -78,5 +78,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 'https://github.com/hooozen/oathkeeper.git'
-  branch: page
+  repo: git@github.com:hooozen/oathkeeper.git
+  branch: gh-pages
