@@ -21,7 +21,7 @@ url:
     rss:
     daily_pic: "#"
     logo: "#"
-    about: 'about'
+    about: '/oathkeeper/about'
 
 
 # ---------------------------------------------------------------
@@ -70,9 +70,9 @@ background:
         parameter:
 
 # User infos
-users:
+user:
   hozen:
-    face: '/img/users/hozen.png'
+    face: '/img/users/'
 # Images Settings
 img:
     logo: "/img/logo.png"
@@ -206,7 +206,7 @@ sidebar:
         divider: true
     pages:
         About:
-            link: "about"
+            link: "/oathkeeper/about"
             icon: person
             divider: false
     article_num:
