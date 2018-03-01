@@ -231,7 +231,7 @@ comment:
     changyan_conf:
     changyan_thread_key_type: path
     livere_data_uid:
-    gitment_repo: git@github.com:hooozen/oathkeeper.git  # git repo of the hexo
+    gitment_repo: oathkeeper # git repo of the hexo
     gitment_owner: hooozen  # git repo's owner
     gitment_client_id: 82cfd47ba0fd79762eda  # github app client id 
     gitment_client_secret: 5f9a9d5ad3a288b91caeeba97737a47f23c4c826  # github app client secret 
