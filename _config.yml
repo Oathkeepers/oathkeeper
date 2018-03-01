@@ -80,3 +80,7 @@ deploy:
   type: git
   repo: git@github.com:hooozen/oathkeeper.git
   branch: gh-pages
+
+search:
+  path: search.xml
+  field: all
