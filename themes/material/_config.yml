@@ -207,7 +207,7 @@ sidebar:
     pages:
         About:
             link: "/oathkeeper/about"
-            icon: person
+            icon: info
             divider: false
     article_num:
         use: false
