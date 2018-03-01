@@ -70,9 +70,9 @@ background:
         parameter:
 
 # User infos
-user:
+users:
   hozen:
-    face: '/img/users/'
+    face: '/img/users/hozen.png'
 # Images Settings
 img:
     logo: "/img/logo.png"
