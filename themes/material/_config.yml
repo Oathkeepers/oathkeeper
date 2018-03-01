@@ -166,10 +166,10 @@ sns:
     facebook: 
     twitter: 
     googleplus: 
-    weibo: "https://weibo.com/Accenzer"
+    weibo: 
     instagram:
     tumblr:
-    github: "https://github.com/hooozen"
+    github: "https://github.com/hooozen/oathkeeper"
     linkedin:
     zhihu:
     bilibili:
@@ -258,7 +258,7 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key:
 
 # Analytics Systems
