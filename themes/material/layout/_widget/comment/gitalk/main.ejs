@@ -12,6 +12,7 @@
             repo: '<%= theme.comment.gitalk_repo %>',
             owner: '<%= theme.comment.gitalk_owner %>',
             admin: ['<%= theme.comment.gitalk_owner %>'],
+            id: '<%= new Date(page.date).getTime()/1000%>', //页面 ID, // 可选。默认为 location.href
             // facebook-like distraction free mode
             distractionFreeMode: false
         })
