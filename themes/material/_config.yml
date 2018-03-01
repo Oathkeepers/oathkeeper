@@ -103,7 +103,7 @@ card_elevation: 2
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
-copyright_since:
+copyright_since: 2018
 
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
