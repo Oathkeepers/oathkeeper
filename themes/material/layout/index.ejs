@@ -24,7 +24,10 @@
     <% } %>
 
     <!-- Normal Post -->
+    <% var cache = [] %>
+
     <% page.posts.each(function(post) { %>
+        <!-- 隐藏介绍文章 -->
         <% if(!((typeof hasposttop === 'function') && post.top)) { %>
             <% if(theme.scheme === 'Paradox') { %>
                 <!-- Paradox Thumbnail -->

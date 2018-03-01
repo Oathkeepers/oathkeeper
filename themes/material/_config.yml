@@ -21,11 +21,12 @@ url:
     rss:
     daily_pic: "#"
     logo: "#"
+    about: 'about'
 
 
 # ---------------------------------------------------------------
 # Style Settings
-# ---------------------------------------------------------------
+# --------------------------------------------------------------
 
 # Schemes
 scheme: Paradox
@@ -33,7 +34,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "欢迎来到 Oathkeeper（#￣▽￣#）"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -196,14 +197,14 @@ sidebar:
         icon: inbox
         divider: false
     categories:
-        use: false
+        use: true
         icon: chrome_reader_mode
-        divider: false
+        divider: true
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        About:
+            link: "about"
+            icon: person
+            divider: false
     article_num:
         use: false
         divider: false

@@ -1,8 +1,9 @@
 ---
 title: 欢迎来到 Oathkeeper
 date: 2018-02-28 14:43:50
-tags: 
+hidden: true
 author: 李浩然
+layout: page
 ---
 &emsp;&emsp;Oathkeeper 致力于建立一个供信息学院同学间技术交流和优质信息分享的平台。
 
