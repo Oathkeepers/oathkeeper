@@ -162,7 +162,7 @@ toc:
 
 # SNS Menu
 sns:
-    email: hozen@live.com
+    email: Hozen@live.com
     facebook: 
     twitter: 
     googleplus: 
@@ -184,13 +184,13 @@ sns_share:
     weibo: true
     linkedin: false
     qq: true 
-    telegram: false
+    telegram: true
 
 # Sidebar Customize
 sidebar:
     dropdown:
         Email Me:
-            link: "#"
+            link: "mailto:hozen@live.com"
             icon: email
     homepage:
         use: true
@@ -205,6 +205,10 @@ sidebar:
         icon: chrome_reader_mode
         divider: true
     pages:
+        Contribute:  
+            link: "/contribute"
+            icon: send
+            divider: false
         About:
             link: "/about"
             icon: info
