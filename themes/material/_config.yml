@@ -72,7 +72,7 @@ background:
 # User infos
 users:
   hozen:
-    face: '/img/users/hozen.png'
+    face: '/img/users/hozen.jpg'
 # Images Settings
 img:
     logo: "/img/logo.png"
