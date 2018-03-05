@@ -71,8 +71,12 @@ background:
 
 # User infos
 users:
+  master:
+    face: '/img/users/master.jpg'
   hozen:
     face: '/img/users/hozen.jpg'
+  suye:
+    face: '/img/users/default.png'
 # Images Settings
 img:
     logo: "/img/logo.png"
