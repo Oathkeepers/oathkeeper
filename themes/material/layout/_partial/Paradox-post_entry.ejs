@@ -34,7 +34,7 @@
         <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
             <!-- Author Avatar -->
             <div id="author-avatar">
-                <img src="<%= url_for(theme.users[post.authorAlias].face) %>" width="44px" height="44px" alt="<%= config.author %>'s avatar">
+                <img src="<%= url_for(theme.users[post.authorAlias] ? theme.users[post.authorAlias].face : '/img/users/default.png') %>" width="44px" height="44px" alt="<%= config.author %>'s avatar">
             </div>
             <div>
                 <strong><%= post.author %></strong>

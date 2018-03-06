@@ -2,7 +2,7 @@
 
     <!-- Author Avatar -->
     <div id="author-avatar">
-        <img src="<%- url_for(theme.users[page.authorAlias].face) %>" width="44px" height="44px" alt="Author Avatar"/>
+        <img src="<%- url_for(theme.users[page.authorAlias] ? theme.users[page.authorAlias].face : '/img/users/default.png') %>" width="44px" height="44px" alt="Author Avatar"/>
     </div>
     <!-- Author Name & Date -->
     <div>

@@ -34,7 +34,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "欢迎来到 Oathkeeper"
+    slogan: "Oathkeeper - 你的成长并不孤单"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -71,8 +71,12 @@ background:
 
 # User infos
 users:
+  master:
+    face: '/img/users/master.jpg'
   hozen:
-    face: '/img/users/hozen.png'
+    face: '/img/users/hozen.jpg'
+  suye:
+    face: '/img/users/default.png'
 # Images Settings
 img:
     logo: "/img/logo.png"
