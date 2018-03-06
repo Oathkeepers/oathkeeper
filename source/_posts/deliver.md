@@ -6,6 +6,13 @@ author: CHD software
 authorAlias: master
 categories: 招聘信息
 ---
+
+***
+#### 2019届 - 京东招聘 
+* 信息来源：suye
+* 发布时间： 2018-03-06 19:54
+> 内推邮箱：[466217395@qq.com](mailto:466217395@qq.com)
+
 ***
 #### 天猫杭州2019届前端开发实习生
 * 信息来源：李浩然

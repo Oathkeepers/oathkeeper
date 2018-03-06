@@ -78,7 +78,7 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:hooozen/oathkeeper.git
+  repo: git@github.com:Oathkeepers/oathkeeper.git
   branch: gh-pages
 
 search:
