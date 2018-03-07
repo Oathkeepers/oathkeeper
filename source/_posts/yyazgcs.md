@@ -1,10 +1,10 @@
 ---
-title: 喂大家一口心灵砒霜
+title: YY安卓工程师的个人见解
 date: 2018-1-16 21:53:14
 tags:
 author: kaycloud
 authorAlias: kaycloud
-categories: 校园经历
+categories: 校招经验
 ---
 &emsp;&emsp;应同学的邀请，瞎扯一下。
  
