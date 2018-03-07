@@ -258,7 +258,8 @@ comment:
     valine_placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
     valine_guest_info: nick,mail,link #valine comment header info
     gitalk_repo: oathkeeper # git repo of the hexo
-    gitalk_owner: hooozen  # git repo's owner
+    gitalk_owner: Oathkeepers # git repo's owner
+    gitalk_admin: hooozen # git repo's owner
     gitalk_client_id: 82cfd47ba0fd79762eda  # github app client id 
     gitalk_client_secret: 5f9a9d5ad3a288b91caeeba97737a47f23c4c826  # github app client secret
 
