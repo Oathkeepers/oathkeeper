@@ -34,7 +34,7 @@ layout: page
 &emsp;&emsp;李浩然：[Hozen@live.com](mailto:Hozen@live.com)
 
 **Oathkeepers**
-- [Noone](https://github.com/orgs/Oathkeepers/teams/noeone) - First Generation OathKeepers
+- [Noone](https://github.com/orgs/Oathkeepers/teams/noone) - First Generation OathKeepers
     - 吴子文 - [slivermeteor](https://github.com/slivermeteor)
     - 陈文科 - [CaoTanXiaoKe](https://github.com/CaoTanXiaoKe)
     - 宋青松 - [suvllian](https://github.com/suvllian)
