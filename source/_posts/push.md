@@ -56,4 +56,4 @@ categories: 招聘信息
 #### 美团
 * 官网：[https://campus.meituan.com/internship](https://campus.meituan.com/internship)
 * 内推时间：3.1-4.18
-![img](../img/mtnt.jpeg)
+![img](/img/mtnt.jpeg)
