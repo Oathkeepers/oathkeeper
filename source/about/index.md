@@ -32,3 +32,13 @@ layout: page
 &emsp;&emsp;孙嘉乐：[2465637185@qq.com](mailto:2465637185@qq.com)（可 QQ 联系）
 &emsp;&emsp;吴子文：[silencein404@gmail.com](mailto:silencein404@gmail.com)
 &emsp;&emsp;李浩然：[Hozen@live.com](mailto:Hozen@live.com)
+
+**Oathkeepers**
+- [Noone](https://github.com/orgs/Oathkeepers/teams/noeone) - First Generation OathKeepers
+    - 吴子文 - [slivermeteor](https://github.com/slivermeteor)
+    - 陈文科 - [CaoTanXiaoKe](https://github.com/CaoTanXiaoKe)
+    - 宋青松 - [suvllian](https://github.com/suvllian)
+    - 李浩然 - [hooozen](https://github.com/hooozen)
+
+***
+&emsp;&emsp; The North Remembers
