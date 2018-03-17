@@ -39,6 +39,7 @@ layout: page
     - 陈文科 - [CaoTanXiaoKe](https://github.com/CaoTanXiaoKe)
     - 宋青松 - [suvllian](https://github.com/suvllian)
     - 李浩然 - [hooozen](https://github.com/hooozen)
+    - 孙嘉乐 - [FINDTHERAINRBOW](https://github.com/FINDTHERAINRBOW)
 
 ***
 &emsp;&emsp; The North Remembers
