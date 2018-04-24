@@ -24,6 +24,15 @@
             </div>
         </div>
 
+        <!-- 访问量统计 -->
+        <script>
+            const script = document.createElement('script')
+            script.src = `http://suvllian.com/count/count.php?page='index'&identify=${Math.random()}`
+            script.type = 'text/javascript'
+            script.async = true
+            document.body.appendChild(script)
+        </script>
+
         <!-- Header Title -->
         <span class="header-title header-item">
             <a href="<%= config.root %>" title="<%= config.title %>">
