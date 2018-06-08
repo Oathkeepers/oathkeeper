@@ -84,18 +84,37 @@
 
     <!-- Pages  -->
     <% for (var i in theme.sidebar.pages){ %>
-        <li>
-            <a href="<%= theme.sidebar.pages[i].link %>" title="<%= i %>">
-                <% if(theme.sidebar.pages[i].icon){ %>
-                    <i class="material-icons sidebar-material-icons"><%= theme.sidebar.pages[i].icon %></i>
-                <% } %>
-                <% if (i === 'About') { %>
-                    <%= '关于' %>
-                <% } else if (i === 'Contribute') {%>
-                    <%= '投稿' %>
-                <% } %>
-            </a>
+        <% if (i === 'Friends') { %>
+            <li class='dropdown'>
+                <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                    <i class="material-icons sidebar-material-icons">link</i>
+                    友链
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <% for (var ii in theme.sidebar.pages.Friends) { %>
+                        <li>
+                            <a target="__blank" class="friends-item" href="http://<%= theme.sidebar.pages.Friends[ii].href %>">
+                                <%= theme.sidebar.pages.Friends[ii].title %> 
+                            </a>
+                        </li>
+                    <% } %>
+                </ul>
+            </li>
+        <% } else { %> 
+            <li>
+                <a href="<%= theme.sidebar.pages[i].link %>" title="<%= i %>">
+                    <% if (theme.sidebar.pages[i].icon){ %>
+                        <i class="material-icons sidebar-material-icons"><%= theme.sidebar.pages[i].icon %></i>
+                    <% } %>
+                    <% if (i === 'About') { %>
+                        <%= '关于' %>
+                    <% } else if (i === 'Contribute') {%>
+                        <%= '投稿' %>
+                    <% } %>
+                </a>
         </li>
+        <% } %>
         <% if(theme.sidebar.pages[i].divider === true) { %>
             <li class="divider"></li>
         <% } %>

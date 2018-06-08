@@ -216,7 +216,11 @@ sidebar:
         About:
             link: "/about"
             icon: info
-            divider: false
+            divider: true 
+        Friends:
+            hozen:
+                title: '李浩然的博客'
+                href: 'www.hozen.site'
     article_num:
         use: false
         divider: false
