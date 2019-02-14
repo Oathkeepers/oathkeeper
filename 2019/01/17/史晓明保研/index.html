@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            关于优研的一些事 | 
+        
+        OathKeeper | 长安大学学生交流平台
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" itemprop="description" content="OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。">
+    <meta name="keywords" content="长安大学 考研 校招 OathKeeper">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?YYrMw7AufCBwVKaK322tYw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="OathKeeper | 长安大学学生交流平台">
+    <meta name="msapplication-starturl" content="https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="OathKeeper | 长安大学学生交流平台">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="关于优研的一些事 | OathKeeper | 长安大学学生交流平台">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。">
+    
+
+    
+        <meta property="article:published_time" content="Thu Jan 17 2019 09:34:49 GMT+0800">
+        <meta property="article:modified_time" content="Thu Jan 17 2019 10:15:36 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html">
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html",
+    "headline": "关于优研的一些事",
+    "datePublished": "Thu Jan 17 2019 09:34:49 GMT+0800",
+    "dateModified": "Thu Jan 17 2019 10:15:36 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "史晓明",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/users/master.jpg"
+        },
+        "description": "Oathkeeper - 你的成长并不孤单"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "OathKeeper | 长安大学学生交流平台",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": "长安大学 考研 校招 OathKeeper",
+    "description": "OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+    <script>
+        // 百度统计
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?90de98c9900cabc9c0e5582b56106f90";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#什么是优研"><span class="post-toc-number">1.</span> <span class="post-toc-text">什么是优研</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#优研的申请条件"><span class="post-toc-number">2.</span> <span class="post-toc-text">优研的申请条件</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#优秀营员的优惠"><span class="post-toc-number">3.</span> <span class="post-toc-text">优秀营员的优惠</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#优研准备及过程（这里才是主要内容）"><span class="post-toc-number">4.</span> <span class="post-toc-text">优研准备及过程（这里才是主要内容）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#提前联系老师"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">提前联系老师</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#需要准备的东西"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">需要准备的东西</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#通知之后需要提交的材料"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">通知之后需要提交的材料</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#优研前一周"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">优研前一周</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#优研正式面试"><span class="post-toc-number">4.5.</span> <span class="post-toc-text">优研正式面试</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#后续"><span class="post-toc-number">4.6.</span> <span class="post-toc-text">后续</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#附件（西电计算机学院关于举办2019年“优研计划”暑期夏令营的通知）"><span class="post-toc-number">5.</span> <span class="post-toc-text">附件（西电计算机学院关于举办2019年“优研计划”暑期夏令营的通知）</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                关于优研的一些事
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/users/default.png" width="44px" height="44px" alt="Author Avatar">
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>史晓明</strong>
+        <span>1月 17, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=关于优研的一些事&url=https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html&pic=https://hooozen.github.io/oathkeeper/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=关于优研的一些事&url=https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html&via=CHD SofterWare 2014" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=OathKeeper | 长安大学学生交流平台&title=关于优研的一些事&summary=OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。&pics=https://hooozen.github.io/oathkeeper/img/favicon.png&url=https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://hooozen.github.io/oathkeeper/2019/01/17/史晓明保研/index.html&text=关于优研的一些事" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="什么是优研"><a href="#什么是优研" class="headerlink" title="什么是优研"></a>什么是优研</h3><p>西安电子科技大学的暑期夏令营又叫“优研计划”，主要是为了留住西电本校的学生(当然，每个学校都是如此)，每年西电和外校优秀营员的比例大概2：1到3：1吧。夏令营基本上都是为保研的同学准备的，不过部分高校的夏令营对考研的同学也有帮助，比如获得优秀学员的话会降分或者免面试或复试等等。考研的同学可以考虑一下这些高校。<br>获得优研“优秀营员”可以降分录取，一般来说学硕320就可进复试，专硕290就可进复试，复试成绩及格之后就可以录取。具体下面会说。</p>
+<h3 id="优研的申请条件"><a href="#优研的申请条件" class="headerlink" title="优研的申请条件"></a>优研的申请条件</h3><p>申请条件是硬性条件。<br>以下摘自2019年优研计划的通知：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">    暑期夏令营活动面向的对象为有志于在相关专业领域提升自身科学研究和工程实践能力的理工科应届大三本科生，要求品德良好、诚实守信、身心健康、无处分记录。且需满足以下条件之一：</span><br><span class="line">1.学业一贯表现突出的学生</span><br><span class="line">满足以下条件之一即可：</span><br><span class="line">（1）985、西电学生学业成绩排名须为所在学院或专业前60%；</span><br><span class="line">（2）其他211高校学生学业成绩排名须为所在学院或专业前50%。</span><br><span class="line">学业成绩和排名可依据本科前5个学期或6个学期成绩，以所在高校教务部门出具的成绩单及证明为准。</span><br><span class="line">2. 获得高水平学科竞赛奖的学生</span><br><span class="line">满足以下条件之一即可：</span><br><span class="line">（1）ACM/ICPC国际大学生程序设计竞赛亚洲区分站赛金奖和银奖获奖学生；</span><br><span class="line">（2）全国大学生电子设计竞赛国家一等奖、二等奖和全国大学生电子设计竞赛省级一等奖（单数年）获奖学生；</span><br><span class="line">（3）全国大学生电子设计竞赛嵌入式系统专题邀请赛、信息安全专题邀请赛和模拟电子系统专题邀请赛国家一等奖、二等奖获奖学生；</span><br><span class="line">（4）全国大学生机械创新设计大赛国家一等奖、二等奖获奖学生；全国大学生工程训练综合能力竞赛国家一等奖、二等奖获奖学生；</span><br><span class="line">（5）美国大学生数学建模竞赛特等奖、特等奖提名奖、一等奖获奖学生；全国大学生数学建模竞赛国家一等奖获奖学生；全国大学生数学建模竞赛国家二等奖获奖学生且同时获得美国大学生数学建模竞赛国际二等奖以上奖项1项；全国大学生数学竞赛全国最高奖项获奖学生；</span><br><span class="line">（6）全国大学生英语竞赛全国最高奖项获奖学生；</span><br><span class="line">（7）全国大学生“挑战杯”科技作品竞赛一等奖前三名，二等奖前二名；全国大学生“挑战杯”创业大赛一、二等奖第一名获奖学生。</span><br><span class="line">3.获得高水平研究成果的学生</span><br><span class="line">满足以下条件之一即可：</span><br><span class="line">（1）发表高水平学术论文</span><br><span class="line">在本科学习期间以排名前二作者身份发表或录用学术论文至少1篇，且论文须符合本学院制定的论文发表参考目录（论文参考目录见附件）。</span><br><span class="line">（2）专利授权</span><br><span class="line">在本科学习期间以排名前二作者身份授权发明专利。</span><br><span class="line">（3）具有其他同等高水平成果</span><br><span class="line">在本科学习期间获得的高水平成果，学院初审合格上报,学校组织专家委员会确认成果水平。</span><br></pre></td></tr></table></figure></p>
+<h3 id="优秀营员的优惠"><a href="#优秀营员的优惠" class="headerlink" title="优秀营员的优惠"></a>优秀营员的优惠</h3><p>以下摘自2019年优研计划的通知：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"> 优秀营员可享受以下政策优惠：</span><br><span class="line">      1.如获得所在学校推荐免试研究生资格，学院将直接发放拟录取通知；</span><br><span class="line">      2.未获所在学校推荐免试研究生资格学生，第一志愿须报考我校，可享受的优惠政策如下：</span><br><span class="line">（1）学业一贯表现突出的学生和获得高水平学科竞赛奖的学生：初试成绩通过A类地区国家线即可进入复试；</span><br><span class="line">（2）获得高水平研究成果的学生：初试成绩须通过A类地区国家线，并且总分达到国家线上20分或学院所在学科/领域复试线即可进入复试；</span><br><span class="line">进入复试的“优研计划”学生均须参加学院组织的复试，复试合格即可拟录取。</span><br></pre></td></tr></table></figure></p>
+<h3 id="优研准备及过程（这里才是主要内容）"><a href="#优研准备及过程（这里才是主要内容）" class="headerlink" title="优研准备及过程（这里才是主要内容）"></a>优研准备及过程（这里才是主要内容）</h3><h4 id="提前联系老师"><a href="#提前联系老师" class="headerlink" title="提前联系老师"></a>提前联系老师</h4><p>大概5月的时候就要准备联系老师了，虽然这个时候正式的夏令营通知还没出来。等到6月初的时候，很多老师已经没有名额了，所以越早联系越好。在联系之前可以问一下在西电的学长学姐或者同学，看有没有值得推荐的老师。也可以去西电官网上看各个老师的研究方向，根据研究方向找老师，在每个老师的主页上都有邮箱，把自己的简历和扫描好的成绩单发给老师就可以了。一般三天老师都没有回复的话，那就联系下一个老师。这里要强调一点的是，如果自己成绩和排名不是很好的话，一定要详细说一下自己的项目经历，比赛的参赛作品等。如果没有项目经历，自己成绩又不是很好，那就在联系老师之前赶紧准备吧。</p>
+<h4 id="需要准备的东西"><a href="#需要准备的东西" class="headerlink" title="需要准备的东西"></a>需要准备的东西</h4><ul>
+<li>项目：面试的时候要展示自己的科研项目或者工程项目，这个要好好准备。</li>
+<li>材料：本科阶段的成绩单，四六级成绩单，获奖证书，还有各种能证明你能力的材料。这些材料提前准备好，复印两三份，在夏令营开始前一天需要提交这些材料。<br>2019年优研计划官方通知如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1.西安电子科技大学“优秀科研人才选拔计划”申请表（附件1）1份（请附本人身份证和学生证扫描件）；</span><br><span class="line">2. 截止目前本科阶段成绩单1份，请所在院系教务部门签章并注明专业排名和专业总人数，有条件的可提供所在院系教授或导师推荐意见；</span><br><span class="line">3.其他相关证明材料（国家英语四、六级考试成绩或TOEFL、GRE/GMAT等体现自身英语水平的证明1份；获奖证书，发表或已录用的、能体现自身学术水平的学术论文、出版物或原创性工作成果）。</span><br><span class="line">4.个人陈述一份。</span><br><span class="line">    以上均为纸质版，在夏令营报到时，提交给报到处。</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="通知之后需要提交的材料"><a href="#通知之后需要提交的材料" class="headerlink" title="通知之后需要提交的材料"></a>通知之后需要提交的材料</h4><p>在官网上通知正式下发后，在指定网站上及时报名，需要把成绩单、证书等能证明你能力的材料的复印件上传网站上。</p>
+<h4 id="优研前一周"><a href="#优研前一周" class="headerlink" title="优研前一周"></a>优研前一周</h4><p>优研前一周老师会拉一个群（不清楚是不是每个老师都会拉群）。说一下面试要面试哪些内容，我当初是老师给了我们一篇论文，然后将论文中自己理解比较透彻的一点用PPT展示，同时也要用PPT展示自己的项目。</p>
+<h4 id="优研正式面试"><a href="#优研正式面试" class="headerlink" title="优研正式面试"></a>优研正式面试</h4><p>一般夏令营是两天，提前一天下午去西电，他们安排了宾馆，提交材料之后就没什么事了。<br>这个时候可以准备一下英语的自我介绍。<br>第一天学校会安排去西电南校区参加讲座，具体听从老师安排就好了。<br>第二天在西电本部面试，提前1个多小时就赶紧从宾馆出发找教室，因为面试的地方有可能不好找（我去面试的时候差点迟到了，三过面试教室门口而不知啊）。到时候会有一个名单，按照名单上的顺序依次进房间面试。是实验室的老师进行面试，差不多5个老师，面试大概10-15分钟，先是英文自我介绍，然后展示自己的项目，然后讲PPT，讲完后老师提问。</p>
+<h4 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h4><p>成为优秀营员需要导师通过，实验室导师通过，学校通过。<br>正式结果什么时候出，这个说不准。我们这一届正式通知特别晚才出。当然，可以问问老师结果如何。</p>
+<h3 id="附件（西电计算机学院关于举办2019年“优研计划”暑期夏令营的通知）"><a href="#附件（西电计算机学院关于举办2019年“优研计划”暑期夏令营的通知）" class="headerlink" title="附件（西电计算机学院关于举办2019年“优研计划”暑期夏令营的通知）"></a>附件（西电计算机学院关于举办2019年“优研计划”暑期夏令营的通知）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">西电计算机学院关于举办2019年“优研计划”暑期夏令营的通知</span><br><span class="line"></span><br><span class="line">   西安电子科技大学计算机专业源于1956年的导弹系统专用计算机专业，是全国最早设立的计算机专业之一，计算机科学ESI全球排名前千分之一（全球排名38）。</span><br><span class="line">   学院将于2018年7月20日-7月22日开展“优研计划”暑期夏令营，欢迎全国各地高校三年级本科生报名参加，表现优异的学生将得到优先攻读我院硕士和博士学位的机会。</span><br><span class="line">   夏令营活动期间，学院将为来自外地的学生凭票报销往返普通硬座火车票或汽车票费用，并统一安排住宿。</span><br><span class="line">一、活动安排</span><br><span class="line">   面向对象：本年度参加研究生招生考试的在校应届本科生，包括学业一贯表现突出的学生、获得高水平学科竞赛奖的学生和获得高水平研究成果的学生三类，且本科所学专业为计算机、电子信息及相关专业。</span><br><span class="line">   活动时间：7月20日-7月22日</span><br><span class="line">   活动地点：西安电子科技大学（具体地点另行通知）</span><br><span class="line">   活动内容：</span><br><span class="line">                1.专业介绍及导师见面会</span><br><span class="line">                2.邀请知名学者作学科前沿报告；</span><br><span class="line">                3.开展青年文化沙龙（优秀博士及硕士生）；</span><br><span class="line">                4.科研实践考核</span><br><span class="line">                5.面试考核</span><br><span class="line">二、申请条件及办法</span><br><span class="line">（一）申请条件</span><br><span class="line">    暑期夏令营活动面向的对象为有志于在相关专业领域提升自身科学研究和工程实践能力的理工科应届大三本科生，要求品德良好、诚实守信、身心健康、无处分记录。且需满足以下条件之一：</span><br><span class="line">1.学业一贯表现突出的学生</span><br><span class="line">满足以下条件之一即可：</span><br><span class="line">（1）985、西电学生学业成绩排名须为所在学院或专业前60%；</span><br><span class="line">（2）其他211高校学生学业成绩排名须为所在学院或专业前50%。</span><br><span class="line">学业成绩和排名可依据本科前5个学期或6个学期成绩，以所在高校教务部门出具的成绩单及证明为准。</span><br><span class="line">2. 获得高水平学科竞赛奖的学生</span><br><span class="line">满足以下条件之一即可：</span><br><span class="line">（1）ACM/ICPC国际大学生程序设计竞赛亚洲区分站赛金奖和银奖获奖学生；</span><br><span class="line">（2）全国大学生电子设计竞赛国家一等奖、二等奖和全国大学生电子设计竞赛省级一等奖（单数年）获奖学生；</span><br><span class="line">（3）全国大学生电子设计竞赛嵌入式系统专题邀请赛、信息安全专题邀请赛和模拟电子系统专题邀请赛国家一等奖、二等奖获奖学生；</span><br><span class="line">（4）全国大学生机械创新设计大赛国家一等奖、二等奖获奖学生；全国大学生工程训练综合能力竞赛国家一等奖、二等奖获奖学生；</span><br><span class="line">（5）美国大学生数学建模竞赛特等奖、特等奖提名奖、一等奖获奖学生；全国大学生数学建模竞赛国家一等奖获奖学生；全国大学生数学建模竞赛国家二等奖获奖学生且同时获得美国大学生数学建模竞赛国际二等奖以上奖项1项；全国大学生数学竞赛全国最高奖项获奖学生；</span><br><span class="line">（6）全国大学生英语竞赛全国最高奖项获奖学生；</span><br><span class="line">（7）全国大学生“挑战杯”科技作品竞赛一等奖前三名，二等奖前二名；全国大学生“挑战杯”创业大赛一、二等奖第一名获奖学生。</span><br><span class="line">3.获得高水平研究成果的学生</span><br><span class="line">满足以下条件之一即可：</span><br><span class="line">（1）发表高水平学术论文</span><br><span class="line">在本科学习期间以排名前二作者身份发表或录用学术论文至少1篇，且论文须符合本学院制定的论文发表参考目录（论文参考目录见附件）。</span><br><span class="line">（2）专利授权</span><br><span class="line">在本科学习期间以排名前二作者身份授权发明专利。</span><br><span class="line">（3）具有其他同等高水平成果</span><br><span class="line">在本科学习期间获得的高水平成果，学院初审合格上报,学校组织专家委员会确认成果水平。</span><br><span class="line"></span><br><span class="line">（二）申请材料准备</span><br><span class="line">1.西安电子科技大学“优秀科研人才选拔计划”申请表（附件1）1份（请附本人身份证和学生证扫描件）；</span><br><span class="line">2. 截止目前本科阶段成绩单1份，请所在院系教务部门签章并注明专业排名和专业总人数，有条件的可提供所在院系教授或导师推荐意见；</span><br><span class="line">3.其他相关证明材料（国家英语四、六级考试成绩或TOEFL、GRE/GMAT等体现自身英语水平的证明1份；获奖证书，发表或已录用的、能体现自身学术水平的学术论文、出版物或原创性工作成果）。</span><br><span class="line">4.个人陈述一份。</span><br><span class="line">    以上均为纸质版，在夏令营报到时，提交给报到处。</span><br><span class="line">（三）申请方式</span><br><span class="line">    申请者须在规定时间进行网上报名。未进行网上报名的学生，将不受理申请。</span><br><span class="line">    网上报名：截止日期为2018年7月15日，请登陆西安电子科技大学研究生招生考生报名服务平台http://yjsxt.xidian.edu.cn/pub/index.jsp，网上注册后，按说明要求报名。</span><br><span class="line">三、优秀营员选拔</span><br><span class="line">    1.思想品德</span><br><span class="line">    “优研计划”申请学生必须品德良好、诚实守信、身心健康且无处分记录。对于抄袭剽窃、弄虚作假、思想品德不合格、有处分记录的申请学生，一律不得允许其报名入选；对于已入选的，取消其“优研计划”入选录取资格。</span><br><span class="line">    2.考核成绩</span><br><span class="line">    综合成绩=科研实践成绩（100分制）*50%+面试成绩（100分制）*50%，最终根据复试成绩进行排名，择优选拔。科研实践或面试成绩不合格（低于60分）者，直接淘汰。科研实践主要考查学生的科研实践动手能力，要求在夏令营开营前自行完成一个科研实践题目，撰写实践报告，并在夏令营期间进行15分钟答辩（源码及成果展示5分钟+ppt介绍5分钟+提问5分钟），由专家组根据实践报告和答辩情况进行评定打分。科研实践的题目确定：由学生本人在网上报名时填写word附件“自拟题目格式”，学院专家组审核同意（自拟申请方式：在网上报名时，上传一个附件word文档，命名为“自拟题目名称+姓名”，待夏令营报到后由学院统一公布审核结果。自拟的题目要在多方面体现出自身在计算机学科的科研潜力、动手能力、分析能力等，否则题目审核不能通过。答辩评审组会根据作品、报告、答辩情况等进行打分。）</span><br><span class="line">    3. 学院根据成绩择优确定优秀营员名单，并在学院网站进行公示。入选优秀营员即被录取为我院的“优研计划”合格生源，须填写《“优秀科研人才选拔计划”考生诚信承诺书》。</span><br><span class="line">四、优秀营员政策</span><br><span class="line">     优秀营员可享受以下政策优惠：</span><br><span class="line">      1.如获得所在学校推荐免试研究生资格，学院将直接发放拟录取通知；</span><br><span class="line">      2.未获所在学校推荐免试研究生资格学生，第一志愿须报考我校，可享受的优惠政策如下：</span><br><span class="line">（1）学业一贯表现突出的学生和获得高水平学科竞赛奖的学生：初试成绩通过A类地区国家线即可进入复试；</span><br><span class="line">（2）获得高水平研究成果的学生：初试成绩须通过A类地区国家线，并且总分达到国家线上20分或学院所在学科/领域复试线即可进入复试；</span><br><span class="line">进入复试的“优研计划”学生均须参加学院组织的复试，复试合格即可拟录取。</span><br><span class="line">五、活动日程</span><br><span class="line">        7月20日：营员报到。报到地点，具体安排另行通知。</span><br><span class="line">        7月21日—7月22日，夏令营相关的学习交流及考核（具体安排另行通知）。</span><br><span class="line">咨询电话：029-88202427转801 刘老师</span><br></pre></td></tr></table></figure>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 Gitalk -->
+<div id="gitalk-comment">
+    <!-- Gitalk 评论框 -->
+<div id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script>
+    var gitalk = new Gitalk({
+            clientID: '82cfd47ba0fd79762eda',
+            clientSecret: '5f9a9d5ad3a288b91caeeba97737a47f23c4c826',
+            repo: 'oathkeeper',
+            owner: 'Oathkeepers',
+            admin: ['hooozen'],
+            id: '1547688889', //页面 ID, // 可选。默认为 location.href
+            // facebook-like distraction free mode
+            distractionFreeMode: false
+        })
+   gitalk.render('gitalk-container')
+</script>
+</div>
+<style>
+    #gitalk-comment {
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2019/01/18/计算机系（产品经理秋招总结）/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/01/13/韦天一 保研到中科大/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/users/master.jpg" alt="CHD SofterWare 2014's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <!-- 不现实邮箱地址
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        Hozen@live.com
+        <b class="caret"></b>
+    </a>
+    -->
+    <a class="sidebar-brand">
+        Oathkeeper<span class="author">by 长大 14 级软件系</span>
+    </a>
+    
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:hozen@live.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/02/">二月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">2</span></a>
+            </li></ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/保研经验/">保研经验<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/保研考研/">保研考研<span class="sidebar_archives-count">18</span></a></li><li><a class="sidebar_archives-link" href="/categories/公告说明/">公告说明<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/招聘信息/">招聘信息<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/校园经历/">校园经历<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/校招经验/">校招经验<span class="sidebar_archives-count">16</span></a></li><li><a class="sidebar_archives-link" href="/categories/留学经验/">留学经验<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/考研经验/">考研经验<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/资料文件/">资料文件<span class="sidebar_archives-count">3</span></a>
+            </li></ul>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Pages  -->
+    
+         
+            <li>
+                <a href="/contribute" title="Contribute">
+                    
+                        <i class="material-icons sidebar-material-icons">send</i>
+                    
+                    
+                        投稿
+                    
+                </a>
+        </li>
+        
+        
+    
+         
+            <li>
+                <a href="/about" title="About">
+                    
+                        <i class="material-icons sidebar-material-icons">info</i>
+                    
+                    
+                        关于
+                    
+                </a>
+        </li>
+        
+        
+            <li class="divider"></li>
+        
+    
+        
+            <li class="dropdown">
+                <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                    <i class="material-icons sidebar-material-icons">link</i>
+                    友链
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    
+                        <li>
+                            <a target="__blank" class="friends-item" href="http://www.hozen.site">
+                                李浩然的博客 
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/hooozen/oathkeeper" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            ©&nbsp;2018&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script> | OathKeeper | 长安大学学生交流平台 |
+            <a href="http://www.hozen.site">Developer</a>
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- GitTalk -->
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

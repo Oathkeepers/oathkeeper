@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            保研中科院 - 计算机 | 
+        
+        OathKeeper | 长安大学学生交流平台
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" itemprop="description" content="OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。">
+    <meta name="keywords" content="长安大学 考研 校招 OathKeeper">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?YYrMw7AufCBwVKaK322tYw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="OathKeeper | 长安大学学生交流平台">
+    <meta name="msapplication-starturl" content="https://hooozen.github.io/oathkeeper/2018/03/06/byzky/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="OathKeeper | 长安大学学生交流平台">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://hooozen.github.io/oathkeeper/2018/03/06/byzky/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="保研中科院 - 计算机 | OathKeeper | 长安大学学生交流平台">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。">
+    
+
+    
+        <meta property="article:published_time" content="Tue Mar 06 2018 19:40:02 GMT+0800">
+        <meta property="article:modified_time" content="Mon Oct 29 2018 21:19:31 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html">
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html",
+    "headline": "保研中科院 - 计算机",
+    "datePublished": "Tue Mar 06 2018 19:40:02 GMT+0800",
+    "dateModified": "Mon Oct 29 2018 21:19:31 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "黑哥",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/users/master.jpg"
+        },
+        "description": "Oathkeeper - 你的成长并不孤单"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "OathKeeper | 长安大学学生交流平台",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": "长安大学 考研 校招 OathKeeper",
+    "description": "OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+    <script>
+        // 百度统计
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?90de98c9900cabc9c0e5582b56106f90";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                保研中科院 - 计算机
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/users/default.png" width="44px" height="44px" alt="Author Avatar">
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>黑哥</strong>
+        <span>3月 06, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=保研中科院 - 计算机&url=https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html&pic=https://hooozen.github.io/oathkeeper/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=保研中科院 - 计算机&url=https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html&via=CHD SofterWare 2014" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=OathKeeper | 长安大学学生交流平台&title=保研中科院 - 计算机&summary=OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。&pics=https://hooozen.github.io/oathkeeper/img/favicon.png&url=https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://hooozen.github.io/oathkeeper/2018/03/06/byzky/index.html&text=保研中科院 - 计算机" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>&emsp;&emsp;收到同学的邀请，希望谈一谈保研的一些准备事宜，我觉的是很好的，分享自己的经验同时又让学弟学妹们少走弯路。那就废话不多说了，主要就描述一下去年暑假我的保研的历程吧。</p>
+<p>&emsp;&emsp;从三月份开始，不对，准确地说应该是从寒假开始，在家准备简历，去网吧了解导师信息，三月份开学准备各种材料，开始联系老师。当时最想去的就是计算所，华科，北航等吧。3,4月份一直在论坛混着，关注着各个学校的官网以及微信各种，信息很多也很杂。5,6月份有点忙，就没太过分关注，毕竟学习还是最重要的。</p>
+<p>&emsp;&emsp;其实吧，参加各个学校的夏令营，我觉得软件所的那个党委副书记说的很好，第一长见识，第二长知识，第三长本事。我一直都是抱着大家相互交流学习的态度参加各个学校的夏令营，因为我觉得大家都够被录取一定都有着自己的过人之处，都很优秀。一开始我对清华叉院还有北航都没有抱希望，但还是试着投了一份资料。最后清华没过，北航倒是意外的过了。去机试面试也只是和平的心态，能过则喜，不过也罢。</p>
+<p>&emsp;&emsp;本来想去华科的国家光电实验室，后来因为考试周有考试，所以最后选择了计算机学院，一开始还是有点担心不录，因为华科计算机在全国来说也是很强的，后来幸运地被录取，还拿到了优秀营员。最开始吧，大家都报了西工大，本身在西安，正好考完试（7.4）下午去报道，于是我便和大家一起走了一遭西工大，当时还开玩笑说，长大计算机专业踢馆西工大。说句实在话，西工大计算机比西交强，但是西交的名气很大，这点毋庸置疑。西工大夏令营三天，要求也很高，硬性要求六级，还要求学校学科排名前百分之多少，第二天报告+面试，老师很和蔼，英文自我介绍，问一下你的项目，专业课等。第三天就是机试（AC了二个，做了四个题，五个题的难度差异跨度比较大），心理测试，英文测试。说一下郭斌老师真的很厉害，那天听完他的报告，觉得老师讲的特别好！后来也是老师面试我的，面试还比较顺利。</p>
+<p>&emsp;&emsp;西工大结束后，当天晚上我就进京赶考了。北航8,9,10三天，七号到了北京，心情还是很激动的，第一次到帝都，见到了很多牛逼的大学还有IT公司。找好了宾馆，中午见了老同学，下午急忙忙赶去见老师，老师给我的反馈是不自信，我还是挺纳闷的，怎么就不自信了，我挺自信的呀，后来老师说从我说话听出来的。（其实吧，我是比较低调，在不熟悉老师面前也不好意思说自己有多优秀）后来我就注意了，在每次的面试我都会提高音量，保持微笑和目光交流，自我介绍也是准备了很多遍，到了后面的夏令营已经好很多了。北航机试两道题，AC一个。准备第二天的面试，面试很不好，老师问的自己的研究方向，都忘光了，当时就知道gg了。XX吧（我可没说是哪一个学校，哈哈），怎么说呢，是一个很傲娇的学校，他感觉态度就是，你爱来就来，不来也无所谓，我们不缺学生。XX毕竟大牛，我就不多做评论了。</p>
+<p>&emsp;&emsp;北航结束了就去信工所了，7.11-15五天的夏令营，参观实验室花了两天时间，给大家介绍的真的很不错，很详细，知道自己去哪个实验室的哪个课题组。因为我对信息安全不是很感兴趣，所以毅然决然选择了去二室，搞数据挖掘，社交网络等。老师都很好，参观实验室的过程你可以去和老师交流，看自己是否适合老师。这一点很多学校做不到，大多数都是面试或者群面就结束了。之前联系了一个老师，提前交流感觉也不错，很聊的来。信工所还是比较壕的，除了基本的包吃包住，饭卡最后还没用完。还有一天的外出游玩，包鸟巢水立方的门票，中午在酒店吃大餐。最后一天面试，英语考核，笔试，都很顺利。下午1:30就完成了，于是就回宿舍，晚上去了360，798，还错过了末班地铁，凌晨1:00才到宿舍。那个周末去了很多地方，北海，后海，护国寺小吃，恭王府，南锣鼓巷，天安门，国博。看升国旗的时候真的很震撼！眼泪哗哗地流。毕竟第一次来北京，在保研的路上，也要行得万里路，灵魂和身体，总有一个在路上。</p>
+<p>&emsp;&emsp;周一去软件所报道。</p>
+<p>&emsp;&emsp;在信工所认识了很多同学，学长还有老师们。包括后面参加软件所夏令营也有很多熟悉的面孔。</p>
+<p>&emsp;&emsp;软件所的夏令营，给我的感觉，不好说吧，因为周三那天我在计算所笔试面试（为学长争取来的机会点赞），对软件所也不是很了解，导师也不是很清楚。其实我最开始是有一个方向的，中文信息处理那个组，可是后来他们名额比较少，再加上优先面试了那些选择课题组的人(网上填报)，他们组不招人了。我就想着，反正不了解，想去的组也不招人了，那我干脆就不直接面试了，不浪费时间。因为我觉得学校差不是太多的情况下，优先选择好导师很重要。加上信工所部分老师是计算所原班人马，我那个导师人也很nice，对我自身的发展其实很好，所以信工所作为了我的第一候选。周三那天吧，简历发给了学长，在学长的推荐下我有幸去计算所参加笔试，下午1：30面试。本来以为笔试不刷人的，直到下午13：19名单出来了，总共31个人，我是第11个。笔试完全没复习，但是很庆幸，笔试过了。其实笔试也不难，36分的填空题，考的内容就计算机专业那几门课，64分的编程题，基础题拓展题都有，只要有点底子都能写出来。计算所的竞争还是很激烈，据说我们那个组只要6个人，其中已经有3个人下面面试过了，也就是说31个人他们只要3个。怪不得我面试过程中如此顺利，顺利得让我有点措手不及。最后计算所没过，软件所也不是很感兴趣，要是等九月份免推，感觉好导师都被挑走了。所以我可能九月份也就不折腾了。后面还有华科可以留一个底儿。</p>
+<p>&emsp;&emsp;周四他们在软件所面试，我闲着无事，自己一个人跑到颐和园去转了一圈。周五晚上的火车去武汉。离开北京前还有点不舍，对北京的印象还是很好的。</p>
+<p>&emsp;&emsp;华科的夏令营三天，其实也就两天，第一天报道，下午没事，我和同学两个人去唱歌，感觉也很久没有去唱过歌了，然后和我爸成功在武汉会师，他到武汉来看我。晚上把老爸安顿好之后，我就回去把代码看了一下，准备明天的机试。华科机试三个题，Ac两个差不多就能优秀营员(当然还包括你的材料，竞赛，排名等)。前面两个题不难，考得很基础，都是些简单的数据结构，第三题也只是用到了堆栈差不多。总共65个名额大概录取三分之一。下午就是听报告，感觉每个课题组都在做大数据啊，信息处理之类的，有点混乱。除了国光，就是做储存，方向感很强。第三天就是拿证书，自己联系老师，见面了解。整个过程很简单。那天中午退房，晚上我的火车，于是硬是在食堂呆了一下午。在食堂遇见了XX大学的同学(我XX人)，聊得还挺好的，什么都聊，感觉牛人到处都是，之前在学校还自我感觉良好，现在才发现自己有点井底之蛙。晚上XX哥和X哥哥请我吃完饭送我上车，我就准备连夜奔回西安了。</p>
+<p>&emsp;&emsp;这次夏令营参加的过程中，认识很多人，学到了很多，也认识到了自我的狭隘以及竞争的压力。自身还有很多东西要学，要去为之努力！当然，能获得保研资格还是最好，保研的过程其实很简单，不用把它想得太难，虽然我们可能只有1,2个月的时间复习4,5门专业课，但是总体来说也没关系，毕竟能保研的人还是很优秀的！希望2019届的学弟学妹们好好加油！<br>&emsp;</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 Gitalk -->
+<div id="gitalk-comment">
+    <!-- Gitalk 评论框 -->
+<div id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script>
+    var gitalk = new Gitalk({
+            clientID: '82cfd47ba0fd79762eda',
+            clientSecret: '5f9a9d5ad3a288b91caeeba97737a47f23c4c826',
+            repo: 'oathkeeper',
+            owner: 'Oathkeepers',
+            admin: ['hooozen'],
+            id: '1520336402', //页面 ID, // 可选。默认为 location.href
+            // facebook-like distraction free mode
+            distractionFreeMode: false
+        })
+   gitalk.render('gitalk-container')
+</script>
+</div>
+<style>
+    #gitalk-comment {
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2018/03/06/360qyanqkf/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/03/06/byhzkjdx/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/users/master.jpg" alt="CHD SofterWare 2014's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <!-- 不现实邮箱地址
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        Hozen@live.com
+        <b class="caret"></b>
+    </a>
+    -->
+    <a class="sidebar-brand">
+        Oathkeeper<span class="author">by 长大 14 级软件系</span>
+    </a>
+    
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:hozen@live.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/02/">二月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">2</span></a>
+            </li></ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/保研经验/">保研经验<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/保研考研/">保研考研<span class="sidebar_archives-count">18</span></a></li><li><a class="sidebar_archives-link" href="/categories/公告说明/">公告说明<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/招聘信息/">招聘信息<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/校园经历/">校园经历<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/校招经验/">校招经验<span class="sidebar_archives-count">16</span></a></li><li><a class="sidebar_archives-link" href="/categories/留学经验/">留学经验<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/考研经验/">考研经验<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/资料文件/">资料文件<span class="sidebar_archives-count">3</span></a>
+            </li></ul>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Pages  -->
+    
+         
+            <li>
+                <a href="/contribute" title="Contribute">
+                    
+                        <i class="material-icons sidebar-material-icons">send</i>
+                    
+                    
+                        投稿
+                    
+                </a>
+        </li>
+        
+        
+    
+         
+            <li>
+                <a href="/about" title="About">
+                    
+                        <i class="material-icons sidebar-material-icons">info</i>
+                    
+                    
+                        关于
+                    
+                </a>
+        </li>
+        
+        
+            <li class="divider"></li>
+        
+    
+        
+            <li class="dropdown">
+                <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                    <i class="material-icons sidebar-material-icons">link</i>
+                    友链
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    
+                        <li>
+                            <a target="__blank" class="friends-item" href="http://www.hozen.site">
+                                李浩然的博客 
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/hooozen/oathkeeper" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            ©&nbsp;2018&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script> | OathKeeper | 长安大学学生交流平台 |
+            <a href="http://www.hozen.site">Developer</a>
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- GitTalk -->
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

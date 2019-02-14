@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            计算机系（产品经理秋招总结） | 
+        
+        OathKeeper | 长安大学学生交流平台
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" itemprop="description" content="OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。">
+    <meta name="keywords" content="长安大学 考研 校招 OathKeeper">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?YYrMw7AufCBwVKaK322tYw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="OathKeeper | 长安大学学生交流平台">
+    <meta name="msapplication-starturl" content="https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="OathKeeper | 长安大学学生交流平台">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="计算机系（产品经理秋招总结） | OathKeeper | 长安大学学生交流平台">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。">
+    
+
+    
+        <meta property="article:published_time" content="Fri Jan 18 2019 21:54:21 GMT+0800">
+        <meta property="article:modified_time" content="Fri Jan 18 2019 22:13:18 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html">
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html",
+    "headline": "计算机系（产品经理秋招总结）",
+    "datePublished": "Fri Jan 18 2019 21:54:21 GMT+0800",
+    "dateModified": "Fri Jan 18 2019 22:13:18 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "明萌",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/users/master.jpg"
+        },
+        "description": "Oathkeeper - 你的成长并不孤单"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "OathKeeper | 长安大学学生交流平台",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": "长安大学 考研 校招 OathKeeper",
+    "description": "OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+    <script>
+        // 百度统计
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?90de98c9900cabc9c0e5582b56106f90";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#一-确定方向"><span class="post-toc-number">1.</span> <span class="post-toc-text">一.确定方向</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#二-补充相关知识（以产品经理为例）"><span class="post-toc-number">2.</span> <span class="post-toc-text">二.补充相关知识（以产品经理为例）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-建立能力模型"><span class="post-toc-number">2.0.1.</span> <span class="post-toc-text">1.建立能力模型</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#2-提升相关能力"><span class="post-toc-number">2.0.2.</span> <span class="post-toc-text">2.提升相关能力</span></a></li></ol></li></ol><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#三-实习"><span class="post-toc-number">3.</span> <span class="post-toc-text">三.实习</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-熟悉工作内容"><span class="post-toc-number">3.0.1.</span> <span class="post-toc-text">1.熟悉工作内容</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#2-健全能力模型"><span class="post-toc-number">3.0.2.</span> <span class="post-toc-text">2.健全能力模型</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#四-秋招"><span class="post-toc-number">4.</span> <span class="post-toc-text">四.秋招</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-简历投递"><span class="post-toc-number">4.0.1.</span> <span class="post-toc-text">1.简历投递</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#2-笔试"><span class="post-toc-number">4.0.2.</span> <span class="post-toc-text">2.笔试</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#3-面试"><span class="post-toc-number">4.0.3.</span> <span class="post-toc-text">3.面试</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#五-offer选择"><span class="post-toc-number">5.</span> <span class="post-toc-text">五.offer选择</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#其他未尽事项"><span class="post-toc-number">6.</span> <span class="post-toc-text">其他未尽事项</span></a></li>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                计算机系（产品经理秋招总结）
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/users/default.png" width="44px" height="44px" alt="Author Avatar">
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>明萌</strong>
+        <span>1月 18, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=计算机系（产品经理秋招总结）&url=https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html&pic=https://hooozen.github.io/oathkeeper/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=计算机系（产品经理秋招总结）&url=https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html&via=CHD SofterWare 2014" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=OathKeeper | 长安大学学生交流平台&title=计算机系（产品经理秋招总结）&summary=OathKeeper 致力于建立一个供长安大学同学进行技术交流、学习互助、经验分享和优质信息发布的平台。&pics=https://hooozen.github.io/oathkeeper/img/favicon.png&url=https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://hooozen.github.io/oathkeeper/2019/01/18/计算机系（产品经理秋招总结）/index.html&text=计算机系（产品经理秋招总结）" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p>一直想做个秋招总结顺便为学弟学妹提供一下经验之类的参考，但是拖延症太严重拖到了现在…幸好今天总算一口气写完了（呼～）。下文主要是个人以产品经理为求职目标参与秋招的全过程&amp;经验总结，全文结构为：确定方向-补充知识-实习-秋招-offer选择-其他。经验贴一般会比较主观，大家自行选择觉得有意义的部分吸收即可～</p>
+</blockquote>
+<blockquote>
+<p><em>产品经理：负责将用户需求以及公司需求转化为产品的角色，并对具体的产品设计以及执行成果负责。</em></p>
+</blockquote>
+<h2 id="一-确定方向"><a href="#一-确定方向" class="headerlink" title="一.确定方向"></a>一.确定方向</h2><p>&emsp;&emsp;提前的职业方向规划对于求职是非常重要的。职业方向可以按照技术要求（要不要写代码）划分为技术类和非技术类，技术类包括前端、后台开发、测试等，非技术类包括产品经理、运营以及其他职能类岗位。首先对目标职业进行一个整体的调研了解，然后根据自身的兴趣（码代码或者其他），能力匹配程度以及目标职业长期发展进行分析和选择。</p>
+<p>&emsp;&emsp;我是在大三下学期确定了产品经理为职业目标。主要是由于对当程序媛没有意向（也没有能力2333），在了解了产品经理的基本职能以及职业要求后，抓紧时间充了个电，很幸运的赶在春招的尾巴上找到了相关实习。</p>
+<h2 id="二-补充相关知识（以产品经理为例）"><a href="#二-补充相关知识（以产品经理为例）" class="headerlink" title="二.补充相关知识（以产品经理为例）"></a>二.补充相关知识（以产品经理为例）</h2><p>&emsp;&emsp;在确定职业方向后，大家可以针对目标职业有计划的提升自己的能力。根据我的经验（踩过的坑），可以按照以下方式进行准备。</p>
+<h4 id="1-建立能力模型"><a href="#1-建立能力模型" class="headerlink" title="1.建立能力模型"></a>1.建立能力模型</h4><p>&emsp;&emsp;在接触一个新的职业/行业时不应该盲目的快速投入，在身体力行之前可以先进行宏观上的了解与思考，建立能力模型后再针对性的提升相关能力，途径：<br>&emsp;&emsp;1-1.学长学姐经验：寻找具有相关背景的前辈帮助总是进入行业的第一步，下面是我自己建立的能力模型：<br><img src="/img/mm1.png" alt="avatar"><br>&emsp;&emsp;1-2.相关论坛等交流平台：知乎、得到等等等等上大佬们的经验之谈都是可以参考滴</p>
+<h4 id="2-提升相关能力"><a href="#2-提升相关能力" class="headerlink" title="2.提升相关能力"></a>2.提升相关能力</h4><p>&emsp;&emsp;2-1.了解行业知识：不需要了解特别深入，只要清楚最近互联网行业大致趋势就足够了，没事逛逛36kr，人人都是产品经理这种网站（也有对应的运营号很方便）<br>&emsp;&emsp;2-2.掌握方法论：学校里是没有产品经理对应的课程的，但是市面上有很多大佬的书可以帮助小白入门了解，比如：《人人都是产品经理》、《结网》等等。通过这些书大家可以更深入的了解产品经理的工作以及所需的基本知识。（当然也有三节课、起点这种网校类的，不过我觉得成本太高没必要，不过当做扩展人脉的途径也未尝不可哈）</p>
+<p>&emsp;&emsp;2-3.自身素质提升：主要指的是执行力、同理心、沟通能力、学习能力以及逻辑思维能力等。这一部分主要是依靠自身的努力提升。可以尝试在日常解决问题时关注思考的逻辑性，注重沟通表达方式等。之前看过俞军老师在知乎上关于产品经理相关问题的回答，自觉受益良多，贴个链接：<a href="https://www.zhihu.com/question/25990427/answer/128871224" target="_blank" rel="noopener">https://www.zhihu.com/question/25990427/answer/128871224</a>  （印象最深的还是俞军老师说起尝试用最简语言表达的时候吐槽，这样较少浪费他人生命，比较人道）。另外pm面试时对逻辑思维能力和表达能力会相对更看重一些，应对提问和个人陈述时可以按照：提出问题-分析问题-解决问题的顺序将问题或个人经历拆解再表达，这部分在秋招面经里详细说明。</p>
+<h2 id="三-实习"><a href="#三-实习" class="headerlink" title="三.实习"></a>三.实习</h2><p>&emsp;&emsp;一份可以提升自己相关能力的实习是很有帮助的，笔经面经放在秋招里详细讲，这部分主要想分享一下实习期间应该做的</p>
+<h4 id="1-熟悉工作内容"><a href="#1-熟悉工作内容" class="headerlink" title="1.熟悉工作内容"></a>1.熟悉工作内容</h4><p>&emsp;&emsp;一般实习时常会要求在2个月至6个月之间，在实习期间最基本的就是熟悉工作内容，同时也是一个帮你确认目标职位是否真正符合你预期的机会；</p>
+<h4 id="2-健全能力模型"><a href="#2-健全能力模型" class="headerlink" title="2.健全能力模型"></a>2.健全能力模型</h4><p>&emsp;&emsp;在熟悉工作内容的基础上，针对具体工作可以建立更加完整也更加个性化的能力模型，然后可以按照：为什么要做-&gt;要做什么-&gt;怎么做-&gt;哪些做不到-&gt;怎么解决 这样的模式去思考以及做针对性的训练提升</p>
+<h2 id="四-秋招"><a href="#四-秋招" class="headerlink" title="四.秋招"></a>四.秋招</h2><p>&emsp;&emsp;秋招进程大致总结为：简历投递-笔试-面试（专业面为主）</p>
+<h4 id="1-简历投递"><a href="#1-简历投递" class="headerlink" title="1.简历投递"></a>1.简历投递</h4><p>&emsp;&emsp;1-1.把握时间：很多公司会有提前批的概念，就是提前开放一些岗位和HC，（虽然这种时候一般都是神仙打架）可以多试试，如果没有被录取也不会影响后面正式的招聘，相当于多一条命啦<br>&emsp;&emsp;1-2.内推：内推现在貌似比较简单，网上一搜内推码一大把，不过也会有一些福利（简历免筛选，或者优先筛选，有的还有免笔试的），可以好好把握机会</p>
+<h4 id="2-笔试"><a href="#2-笔试" class="headerlink" title="2.笔试"></a>2.笔试</h4><p>&emsp;&emsp;产品经理笔试题主要包括：行测题、专业题、逻辑题以及主观题。<br>&emsp;&emsp;行测题就是公务员考试的类型，大家水平相差不会太大（这种题考产品经理也是没啥水平划分的意义我觉得）推荐一个刷行测题的app–粉笔，笔试前稍加练习感受一下题型就好。<br>&emsp;&emsp;专业题主要考察一些产品行业的基本知识，比如mvp，GMV，PGC，UGC定义之类比较基础的问题。如果对产品行业进行了一些了解基本上还是没问题的，刚入门时可以看看书逛逛人人，遇到不懂的名词或者问题勤思考、勤百度。<br>&emsp;&emsp;逻辑题主要是考察面试者是否善于运用逻辑思维解决问题，多数情况下是开放问题。比如：如何用一分钱买到一瓶可乐，纽约有多少个钢琴调音师等等。这类问题看起来无厘头并且没有标准答案，但是可以从回答中看出思考问题的逻辑性</p>
+<h4 id="3-面试"><a href="#3-面试" class="headerlink" title="3.面试"></a>3.面试</h4><p>&emsp;&emsp;产品经理一般专业面试可能会问到的问题大致分为四类：1.个人经历（实习/校园）2.解决实际问题3.专业知识4.与公司相关的问题&amp;反问题</p>
+<p>&emsp;&emsp;从我个人经验来看，面试最重要的一点就是回答需要有逻辑性，建议在面对所有问题的时候不要急于回答。统一的回答套路是：首先弄清题面，大概get到面试官主要考察的是什么，然后在回答问题的时候按照：提出问题-分析问题-解决问题的思路回答。</p>
+<p>&emsp;&emsp;3-1.在问到个人经历的时候首先抽出一部分可量化结论，然后按照上面的思路论证自己怎样做到这件事，并可以在最后总结补充一句，提升了我XXXX能力<br>例如：简单介绍一下你的实习经历/校园经历<br>首先进行整体复盘，抽出关键结果，然后进行叙述，最后总结提升了啥啥啥，或者学到了啥啥啥<br>&emsp;&emsp;复盘参考见下：<br><img src="/img/mm2.png" alt="avatar"><br>&emsp;&emsp;3-2.问到解决实际问题的时候就注重逻辑性，其实对错并不重要，但是思路要连贯（同上述复盘参考）</p>
+<p>&emsp;&emsp;3-3.专业知识就比较清晰，提前补充下相关知识然后流利地表达就OK，基本学习方式参照笔试题部分。<br>&emsp;&emsp;例如：<br>&emsp;&emsp;产品经理主要职能 我认为可以从三个阶段对产品经理主要职能进行划分：产品规划产品设计产品执行 产品规划：行业市场用户调研，产品定位，竞品分析，基本的需求分析 产品设计：需求管理，功能设计，交互设计，视觉设计等 产品执行：与团队各方面进行沟通，与老板进行沟通，定期对产品进行评估并提出功能优化用户体验升级等方面建议 产品经理需要具备的能力 根据种类可以划分为个人素质能力和产品基本能力 个人素质能力：沟通能力，逻辑能力，学习能力 产品基本能力：对行业的了解，同理心，数据分析能力，文档，原型能力<br>&emsp;&emsp;（最后可补充说明自己的能力模型健全度/覆盖面/能力不足的提升方案）</p>
+<p>&emsp;&emsp;3-4.第4类问题一般是我会准备的最多的部分，在有目标的前提下参加面试是最好的，因为会对公司比较有兴趣了解的多一些，但是也会有只是试试手的情况，我的原则是即使只是试试也要好好准备。<br>首先可以对面试公司有一个整体的评估（行业地位&amp;主要对手），然后对公司最近发力点进行判断、分析（SWOT/5W1H分析）。这样在被问到“为什么想来我们公司”时可以回答的言之有物，以及在被问到“还有什么想问的么”的时候可以找到一个话题。我的一般套路是先问清面试官负责业务，然后在有了解的基础上直接提问（提前准备好的问题），在不了解的情况下针对业务状况继续追问。切忌问一些，我面的怎么样以及基本薪资等等无价值并且会拉低好感的问题。</p>
+<p>&emsp;&emsp;除此之外专业面的时候会问一些优点缺点啥的基本问题（宝洁八大问之类的），可以提前准备起来。其实面试之前多看看面经是很有必要的，不是看回答是看问题，然后自己多思考应该怎样回答。</p>
+<p>&emsp;&emsp;另外，在面试结束后可进行一个复盘，分析自己哪里没有回答好，哪里回答的时候让面试官眼前一亮并且持续迭代自己的面试经验，较为容易提升面试能力。</p>
+<h2 id="五-offer选择"><a href="#五-offer选择" class="headerlink" title="五.offer选择"></a>五.offer选择</h2><p>&emsp;&emsp;这个阶段一般会比较纠结，也会有点“甜蜜的负担”之类的，因为未来不可预期嘛，总会担心选错了。但是我会觉得自己还年轻，有的是犯错的机会，所以选了之后还蛮放松的（在纠结了一阵之后发现无解了就放松了【摊手】）</p>
+<p>&emsp;&emsp;我当时拿的offer有：携程-酒店产品，去哪儿-酒店产品（SP），苏宁-未知产品，贝壳-如视产品。其实跟大佬没法比啦，但是选择的时候还是蛮纠结的，最后选了贝壳。主要原因是对鸟哥印象很好然后对如视很感兴趣，会觉得做新的东西会比较有趣。当然大家会有更多的考虑因素，想跟大家说的就是不需要太纠结，做好决定之后努力就好啦～</p>
+<h2 id="其他未尽事项"><a href="#其他未尽事项" class="headerlink" title="其他未尽事项"></a>其他未尽事项</h2><p>其实拖更了很久，描述的也不是很详尽，如果有什么关于产品经理/运营/其他问题或者探讨大家也可以联系我～最近在实习，不忙的时候都会尽量给大家提供一些参考建议&amp;回复～</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 Gitalk -->
+<div id="gitalk-comment">
+    <!-- Gitalk 评论框 -->
+<div id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script>
+    var gitalk = new Gitalk({
+            clientID: '82cfd47ba0fd79762eda',
+            clientSecret: '5f9a9d5ad3a288b91caeeba97737a47f23c4c826',
+            repo: 'oathkeeper',
+            owner: 'Oathkeepers',
+            admin: ['hooozen'],
+            id: '1547819661', //页面 ID, // 可选。默认为 location.href
+            // facebook-like distraction free mode
+            distractionFreeMode: false
+        })
+   gitalk.render('gitalk-container')
+</script>
+</div>
+<style>
+    #gitalk-comment {
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2019/01/18/李昭（保送中科院遥感与数字地球研究所）/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/01/17/史晓明保研/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/users/master.jpg" alt="CHD SofterWare 2014's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <!-- 不现实邮箱地址
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        Hozen@live.com
+        <b class="caret"></b>
+    </a>
+    -->
+    <a class="sidebar-brand">
+        Oathkeeper<span class="author">by 长大 14 级软件系</span>
+    </a>
+    
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:hozen@live.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/02/">二月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">2</span></a>
+            </li></ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/保研经验/">保研经验<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/保研考研/">保研考研<span class="sidebar_archives-count">18</span></a></li><li><a class="sidebar_archives-link" href="/categories/公告说明/">公告说明<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/招聘信息/">招聘信息<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/校园经历/">校园经历<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/校招经验/">校招经验<span class="sidebar_archives-count">16</span></a></li><li><a class="sidebar_archives-link" href="/categories/留学经验/">留学经验<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/考研经验/">考研经验<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/资料文件/">资料文件<span class="sidebar_archives-count">3</span></a>
+            </li></ul>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+
+    <!-- Pages  -->
+    
+         
+            <li>
+                <a href="/contribute" title="Contribute">
+                    
+                        <i class="material-icons sidebar-material-icons">send</i>
+                    
+                    
+                        投稿
+                    
+                </a>
+        </li>
+        
+        
+    
+         
+            <li>
+                <a href="/about" title="About">
+                    
+                        <i class="material-icons sidebar-material-icons">info</i>
+                    
+                    
+                        关于
+                    
+                </a>
+        </li>
+        
+        
+            <li class="divider"></li>
+        
+    
+        
+            <li class="dropdown">
+                <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                    <i class="material-icons sidebar-material-icons">link</i>
+                    友链
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    
+                        <li>
+                            <a target="__blank" class="friends-item" href="http://www.hozen.site">
+                                李浩然的博客 
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/hooozen/oathkeeper" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            ©&nbsp;2018&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script> | OathKeeper | 长安大学学生交流平台 |
+            <a href="http://www.hozen.site">Developer</a>
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- GitTalk -->
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
